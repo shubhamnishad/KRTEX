@@ -1,0 +1,54 @@
+{
+  "name": "KRTEX",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "generate-apk": "cd android && gradlew assembleRelease && cd ..",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@freakycoder/react-native-bounceable": "^0.2.4",
+    "@react-native-community/async-storage": "^1.12.1",
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-native-community/netinfo": "^6.0.0",
+    "@react-native-picker/picker": "^1.12.0",
+    "@react-navigation/bottom-tabs": "^5.11.10",
+    "@react-navigation/native": "^5.9.3",
+    "@react-navigation/stack": "^5.14.3",
+    "react": "16.13.1",
+    "react-native": "0.63.4",
+    "react-native-elements": "^3.2.0",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-instagram-story-circle": "^0.1.9",
+    "react-native-linear-gradient": "^2.5.6",
+    "react-native-paper": "^4.7.2",
+    "react-native-reanimated": "^2.0.0",
+    "react-native-safe-area-context": "^3.1.9",
+    "react-native-screens": "^3.1.1",
+    "react-native-snackbar": "^2.4.0",
+    "react-native-vector-icons": "^8.1.0",
+    "react-redux": "^7.2.2",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.3.0",
+    "symbol-observable": "^4.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.13.10",
+    "@babel/runtime": "7.13.10",
+    "@react-native-community/eslint-config": "1.1.0",
+    "babel-jest": "25.5.1",
+    "eslint": "6.8.0",
+    "jest": "25.5.4",
+    "metro-react-native-babel-preset": "0.59.0",
+    "react-test-renderer": "16.13.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
